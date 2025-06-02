@@ -24,7 +24,7 @@ jobs:
     runs-on: "windows-latest"
     steps:
       - name: Set up git repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Setup iTunes
         uses: NyaMisty/actions-iTunes-header@master
         with:
